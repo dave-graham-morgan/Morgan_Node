@@ -10,5 +10,4 @@ function cat(path){
    })
 }
 const filePath = process.argv[2]
-console.log(process.argv)
 cat(filePath)
