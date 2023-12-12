@@ -32,15 +32,6 @@ async function webCat(url){
    }catch(e){
       console.log(`Error fetching ${url}: Error: request failed with status code ${e.response.status}`)
    }
-   
-   
-   // if(result.statusCode !== 200){
-   //    console.error(`something went wrong: ${result.status}`)
-   // }else{
-   //    console.log(result.data)
-   // }
-   // console.log(response.status)
-   // console.log("******what about now******")
 }
 
 
