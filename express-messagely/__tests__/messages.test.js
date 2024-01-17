@@ -1,3 +1,5 @@
+process.env.NODE_ENV === "test"
+
 const db = require("../db");
 const User = require("../models/user");
 const Message = require("../models/message");
@@ -37,10 +39,13 @@ describe("Test Message class", function () {
   });
 
   test("can create", async function () {
+    console.log("****in create tc")
+    console.log(await User.get('test1'))
     let m = await Message.create({
       from_username: "test1",
       to_username: "test2",
       body: "new"
+
     });
 
     expect(m).toEqual({

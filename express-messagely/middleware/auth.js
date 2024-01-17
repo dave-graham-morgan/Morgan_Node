@@ -12,6 +12,7 @@ function authenticateJWT(req, res, next) {
     req.user = payload; // create a current user
     return next();
   } catch (err) {
+    console.log("user not logged in")
     return next();
   }
 }
@@ -20,7 +21,7 @@ function authenticateJWT(req, res, next) {
 
 function ensureLoggedIn(req, res, next) {
   if (!req.user) {
-    return next({ status: 401, message: "Unauthorized" });
+    return next({ status: 400, message: "Unauthorized" });
   } else {
     return next();
   }
@@ -33,11 +34,11 @@ function ensureCorrectUser(req, res, next) {
     if (req.user.username === req.params.username) {
       return next();
     } else {
-      return next({ status: 401, message: "Unauthorized" });
+      return next({ status: 400, message: "Unauthorized" });
     }
   } catch (err) {
     // errors would happen here if we made a request and req.user is undefined
-    return next({ status: 401, message: "Unauthorized" });
+    return next({ status: 400, message: "Unauthorized" });
   }
 }
 // end
