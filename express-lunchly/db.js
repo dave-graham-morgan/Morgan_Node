@@ -18,7 +18,7 @@ async function connectToDB(){
    try{
       await db.connect();
       const now = new Date();
-      console.log("Connected to db at",now)
+      console.log("Connected to db at", now)
    }catch(e){
       console.error("error connecting to db", e)
    }
