@@ -43,7 +43,9 @@ router.post("/", async function (req, res, next) {
     const book = await Book.create(req.body.book);
     return res.status(201).json({ book });
   } catch (err) {
-    console.log(err)
+    console.log("*******error in POST********")
+    console.error(err)
+    console.log("*******end post error********")
     return next(err);
   }
 });
@@ -52,6 +54,13 @@ router.post("/", async function (req, res, next) {
 
 router.put("/:isbn", async function (req, res, next) {
   try {
+    const validationResult = jsonschema.validate(req.body, bookSchema)
+    if(!validationResult.valid){
+      console.error("invalid JSON")
+      const listOfErrors = validationResult.errors.map(e=>e.stack);
+      let error = new ExpressError(listOfErrors, 400);
+      return next(error);
+    }
     const book = await Book.update(req.params.isbn, req.body);
     return res.json({ book });
   } catch (err) {
