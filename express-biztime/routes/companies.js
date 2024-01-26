@@ -29,7 +29,7 @@ router.get("/:code", async (req,res,next)=>{
       })
       const result = {code, name, description, industries}
       if (results.rows.length === 0){
-         throw new ExpressError(`could not find company with code ${req.params.code}`,404)
+         throw new ExpressError(`couldf not find company with code ${req.params.code}`,404)
       }else{
          return res.json(result)
       }
