@@ -61,6 +61,7 @@ router.get('/:username', authUser, requireLogin, async function(req, res, next) 
 
 router.patch('/:username', authUser, requireLogin, requiresAdminOrCorrectUser, async function(req,res,next) {
   try {
+    //fixes bug 6
     if('admin' in req.body){
       throw new ExpressError('That field cannot be updated', 401)
     }
