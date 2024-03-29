@@ -35,18 +35,22 @@ const Eightball = () => {
     const [redCount, setRedCount] = useState(0);
 
     function handleClick(){
-        setAnswer(getRandomAnswer());
-        if(answer.color ==='green'){
+        const newAnswer = getRandomAnswer();
+        setAnswer(newAnswer);
+        if(newAnswer.color ==='green'){
             setGreenCount(greenCount + 1);
-        }else if(answer.color === 'red'){
+        }else if(newAnswer.color === 'red'){
             setRedCount(redCount+1);
-        }else if(answer.color === 'goldenrod'){
+        }else if(newAnswer.color === 'goldenrod'){
             setYellowCount(yellowCount+1);
         }
 
     }
     function reset(){
         setAnswer({msg: "Think of a question", color: "black"});
+        setGreenCount(0);
+        setRedCount(0);
+        setYellowCount(0);
     }
 
     return (
