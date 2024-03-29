@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css'
+import Eightball from './eightball'
 
 function App() {
   return (
-      <div className="ball">
-        <h1>Hello World</h1>
+      <div >
+          <Eightball/>
       </div>
   );
 }

@@ -2,10 +2,16 @@
   background-color: purple;
 }
 
-.ball {
-  width: 100px; /* Set the width of your ball */
-  height: 100px; /* Set the height of your ball */
-  background-color: blue; /* Set the background color of your ball */
-  border-radius: 50%; /* This makes the shape a circle */
-  display: inline-block; /* This allows the div to be sized by its content, respecting width and height */
+.ball{
+  width: 200px;
+  height: 200px;
+  color: white;
+  border-radius: 50%;
+  border: none; /* Removes the default button border */
+  display: inline-flex; /* Use flex to center content, if needed */
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  outline: none; /* Removes the default focus outline */
+  padding: 0; /* Removes default padding */
 }
