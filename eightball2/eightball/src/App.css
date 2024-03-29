@@ -1,0 +1,11 @@
+.purplebackground{
+  background-color: purple;
+}
+
+.ball {
+  width: 100px; /* Set the width of your ball */
+  height: 100px; /* Set the height of your ball */
+  background-color: blue; /* Set the background color of your ball */
+  border-radius: 50%; /* This makes the shape a circle */
+  display: inline-block; /* This allows the div to be sized by its content, respecting width and height */
+}

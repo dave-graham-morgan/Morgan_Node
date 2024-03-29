@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76381ae0-c538-492b-9155-afdb5c5c0aaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/.idea/react-eightball.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/Eightball.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/eightball/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-eightball/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-jsx-intro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-jsx-intro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-jsx-intro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-jsx-intro/.idea/react-jsx-intro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../react-jsx-intro/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2eL9IUOJyROs0EIxJUhI4fEYmwW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/damorga/Desktop/Programming/Springboard/Node/eightball2/eighball",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76381ae0-c538-492b-9155-afdb5c5c0aaf" name="Changes" comment="" />
+      <created>1711672911763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711672911763</updated>
+      <workItem from="1711672912880" duration="1609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

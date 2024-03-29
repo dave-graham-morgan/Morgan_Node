@@ -1,0 +1,16 @@
+{
+  "name": "react-eightball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Eightball.js",
+  "scripts": {
+    "start":"react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
