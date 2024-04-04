@@ -49,11 +49,13 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn }) {
   function hasWon(board) {
     //check the board in state to determine whether the player has won.
     for(let i = 0;i<nrows;i++){
-      if(board[i].some(element => element === true)){
-        return false;
+      for(let j = 0;j<ncols;j++){
+        if(board[i][j] === true){
+          return false;
+        }
       }
-      return true; //TODO this is only looking one row deep
     }
+    return true;
   }
 
   function flipCellsAround(coord) {
@@ -62,12 +64,19 @@ function Board({ nrows=3, ncols=3, chanceLightStartsOn }) {
       const boardCopy = oldBoard.map(row=> [...row]);
       const flipCell = (y, x, boardCopy) => {
         // if this coord is actually on board, flip it
-
         if (x >= 0 && x < ncols && y >= 0 && y < nrows) {
           boardCopy[y][x] = !boardCopy[y][x];
         }
       };
       flipCell(y, x, boardCopy)
+      //flip left neighbor if there is one:
+      if (x>=1) flipCell(y,x-1,boardCopy)
+      //flip right neighbor if there is one:
+      if (x<=1) flipCell(y,x+1,boardCopy)
+      //flip upper neighbor if there is one:
+      if(y>=1) flipCell(y-1,x,boardCopy)
+      //flip lower neighbor if there is one:
+      if(y<=1) flipCell(y+1,x,boardCopy)
       return boardCopy
     });
   }
