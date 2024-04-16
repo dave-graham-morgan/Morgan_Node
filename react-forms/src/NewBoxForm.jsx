@@ -8,7 +8,7 @@ function NewBoxForm({addBox}){
     }
 
     const [formData, setFormData] = useState(INITIAL_STATE)
-
+    
     const handleChange = (evt) => {
         const {name, value} = evt.target;
         setFormData( (data)=> ({
