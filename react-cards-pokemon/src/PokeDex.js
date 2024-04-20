@@ -14,7 +14,7 @@ function PokeDex() {
     const addPokemon = (name) => {
         doFetch(`https://pokeapi.co/api/v2/pokemon/${name}/`);
     }
-    
+
   return (
     <div className="PokeDex">
       <div className="PokeDex-buttons">
