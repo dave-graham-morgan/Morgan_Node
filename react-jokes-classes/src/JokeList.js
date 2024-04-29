@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Joke from "./Joke";
+import Joke from "./Joke.js";
 import "./JokeList.css";
 
 /** List of jokes. */
