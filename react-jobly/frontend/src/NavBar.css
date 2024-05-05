@@ -1,0 +1,48 @@
+nav {
+    background-color: blueviolet;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    position: fixed; /* Fix navbar to the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left edge */
+    width: 100%; /* Full width but not full viewport width */
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    height: 50px; /* Fixed height, adjust as needed */
+    padding: 2px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Make nav fill the height of the navbar */
+}
+
+nav a {
+    color: #f0f2f5;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a.active {
+    color: #f0f2f5;
+    font-weight: bold;
+    border-bottom: 5px dotted;
+    box-sizing: border-box;
+}
+
+nav a:hover, nav a.active:hover {
+    text-decoration: none;
+    color: #f0f2f5;
+}
+
+nav a.active.navbar-brand {
+    border-bottom: none;
+}
+
+nav a:not(.navbar-brand):hover {
+    font-weight: bold;
+}

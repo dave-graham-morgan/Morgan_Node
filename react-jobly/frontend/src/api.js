@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
+const BASE_URL = "http://localhost:3001"; //process.env.REACT_APP_BASE_URL ||
 
 /** API Class.
  *
@@ -43,8 +43,21 @@ class JoblyApi {
     return res.company;
   }
 
-  // obviously, you'll add a lot here ...
+  static async getAllCompanies(){
+    let res = await this.request('companies');
+    return res.companies;
+  }
+  static async getCompaniesByName(name){
+    let res = await this.request('companies', {name:name})
+    return res.companies;
+  }
+
+  static async getAllJobs(){
+    let res = await this.request('jobs');
+    return res.jobs;
+  }
 }
+export default JoblyApi;
 
 // for now, put token ("testuser" / "password" on class)
 JoblyApi.token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZ" +

@@ -1,0 +1,7 @@
+.job-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of items if the container width is exceeded */
+    gap: 20px; /* Adds space between the companies */
+    justify-content: center; /* Centers the items in the container (optional) */
+    padding: 5px;
+}
