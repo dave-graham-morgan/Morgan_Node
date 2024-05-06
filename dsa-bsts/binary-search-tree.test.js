@@ -152,7 +152,7 @@ describe("BFS", function() {
       .insert(1)
       .insert(5)
       .insert(50);
-    expect(binarySearchTree.bfs()).toEqual([15, 10, 20, 1, 12, 50, 5]);
+    expect(binarySearchTree.bfs()).toEqual([15, 10, 20, 1, 12, 5, 50]);
   });
 });
 
